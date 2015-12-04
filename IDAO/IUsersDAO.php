@@ -1,6 +1,6 @@
 <?php
 
-interface UsersDAO {
+interface IUsersDAO {
     
     public function connectBase();
     public function connectUser(User $user);
@@ -9,6 +9,7 @@ interface UsersDAO {
     public function ajouterFrais(User $user);
     public function supprimerFrais(Frais $frais);
     public function modifierFrais(Frais $frais);
-    //public function changerDevise(Frais $Frais);   
+    //public function changerDevise(Frais $Frais); 
+
     
 }
